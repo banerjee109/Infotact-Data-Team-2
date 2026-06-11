@@ -144,5 +144,4 @@ No corrections required.
 The datasets successfully passed duplicate record checks and timestamp validation checks. No data quality issues were identified during the audit process. The datasets are suitable for further analysis, attribution modeling, KPI calculations, and dashboard development.
 
 Prepared By:
-Jainam Shah
-Member 3 – Data Quality Validation
+Jainam Shah - Data Quality Validation
