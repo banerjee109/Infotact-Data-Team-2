@@ -1,0 +1,63 @@
+# ── Data files (strictly forbidden per Infotact spec) ──────────────────────────
+data/
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.db
+*.parquet
+*.json.gz
+
+# ── Jupyter Notebook outputs ────────────────────────────────────────────────────
+# Always clear outputs before committing (Kernel → Restart & Clear Output)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python ──────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Virtual environments ─────────────────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── Environment variables & credentials ─────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.yaml
+secrets.yml
+config/credentials.yaml
+
+# ── Power BI / Tableau temp files ────────────────────────────────────────────────
+*.pbix.bak
+*.twbx.bak
+
+# ── OS files ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs & temp ──────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
