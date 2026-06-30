@@ -167,3 +167,83 @@ Infotact-Data-Team-2/
 | **README.md** | Project overview, setup instructions, and documentation |
 | **requirements.txt** | Python package dependencies |
 | **.gitignore** | Files and folders ignored by Git |
+
+---
+
+## Installation & Setup
+
+Follow these steps to run the project on your local machine.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/<Jainam249>/Infotact-Data-Team-2.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Infotact-Data-Team-2
+```
+
+---
+
+### 2. Install Python Dependencies
+
+Install all required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+If you don't have a `requirements.txt` file, install the libraries manually:
+
+```bash
+pip install pandas numpy matplotlib sqlalchemy psycopg2-binary jupyter
+```
+
+---
+
+### 3. Open the Jupyter Notebooks
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open the notebooks in the following order:
+
+1. `01_Dataset_Generation.ipynb`
+2. `02_Duplicate_Timestamp_Cleaning.ipynb`
+3. `03_EDA.ipynb`
+4. `04_Business_Metrics.ipynb`
+5. `05_SQL_Database_Setup.ipynb`
+6. `06_Attribution_Modeling.ipynb`
+
+---
+
+### 4. PostgreSQL Setup
+
+1. Install PostgreSQL.
+2. Create a database named `marketing_db`.
+3. Update the database connection string in `05_SQL_Database_Setup.ipynb` with your PostgreSQL username and password.
+4. Run the notebook to import the datasets into PostgreSQL.
+
+---
+
+### 5. Power BI Dashboard
+
+1. Open the `Marketing_Attribution_Dashboard.pbix` file from the `dashboard/` folder.
+2. Refresh the data if required.
+3. Explore the interactive dashboard using the available filters and slicers.
+
+---
+
+### System Requirements
+
+- Python 3.10 or later
+- Jupyter Notebook
+- PostgreSQL
+- Power BI Desktop
+- Git
