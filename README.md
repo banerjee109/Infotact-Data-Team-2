@@ -177,7 +177,7 @@ Follow these steps to run the project on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<Jainam249>/Infotact-Data-Team-2.git
+git clone https://github.com/banerjee109/Infotact-Data-Team-2.git
 ```
 
 Navigate to the project directory:
