@@ -57,4 +57,5 @@ The objective is to:
 - Pandas
 - PostgreSQL
 - Power BI
-- Git & GitHub
+- Git 
+- Github
