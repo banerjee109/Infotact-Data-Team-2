@@ -118,3 +118,52 @@ The project uses three datasets:
 - Device Distribution
 - Country-wise Conversions
 - Interactive Filters and Slicers
+
+---
+
+## Folder Structure
+
+```text
+Infotact-Data-Team-2/
+│
+├── dashboard/
+│   └── Marketing_Attribution_Dashboard.pbix
+│
+├── datasets/
+│   ├── ad_spend_data.csv
+│   ├── web_analytics_log.csv
+│   └── crm_conversion_data.csv
+│
+├── notebooks/
+│   ├── 01_Dataset_Generation.ipynb
+│   ├── 02_Duplicate_Timestamp_Cleaning.ipynb
+│   ├── 03_EDA.ipynb
+│   ├── 04_Business_Metrics.ipynb
+│   ├── 05_SQL_Database_Setup.ipynb
+│   └── 06_Attribution_Modeling.ipynb
+│
+├── reports/
+│   └── duplicate_timestamp_report.md
+│
+├── screenshots/
+│   ├── dashboard_page1.png
+│   ├── dashboard_page2.png
+│   └── business_metrics.png
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+### Folder Description
+
+| Folder/File | Description |
+|-------------|-------------|
+| **dashboard/** | Contains the interactive Power BI dashboard (.pbix) |
+| **datasets/** | Stores the CSV datasets used for analysis |
+| **notebooks/** | Jupyter notebooks covering data preparation, analysis, SQL setup, and attribution modeling |
+| **reports/** | Project reports and documentation |
+| **screenshots/** | Dashboard screenshots used in the README and project documentation |
+| **README.md** | Project overview, setup instructions, and documentation |
+| **requirements.txt** | Python package dependencies |
+| **.gitignore** | Files and folders ignored by Git |
